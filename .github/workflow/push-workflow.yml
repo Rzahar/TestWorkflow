@@ -9,9 +9,9 @@ jobs:
       - name: Récpération du repo
         uses: actions/checkout@v2
       - name: Récupération de java
-        uses : actions/setup-java@v2
+        uses: actions/setup-java@v2
         with:
-          distribution : adopt
+          distribution: adopt
           java-version: 11
       - name: Execution des tests
         run: mvn test
