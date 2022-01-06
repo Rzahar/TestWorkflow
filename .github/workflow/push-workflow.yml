@@ -6,7 +6,7 @@ jobs:
   tests-unitaires:
     runs-on: ubuntu-latest
     steps:
-      - name: Récpération du repo
+      - name: Récupération du repo
         uses: actions/checkout@v2
       - name: Récupération de java
         uses: actions/setup-java@v2
