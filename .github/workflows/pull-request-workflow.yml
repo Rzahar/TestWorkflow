@@ -1,7 +1,8 @@
 name: pull request workflow
 on:
   pull_request:
-
+    branches:
+      - main
 jobs:
   tests-unitaires:
     runs-on: ubuntu-latest
