@@ -25,6 +25,7 @@ public class EmployeController {
 
     @GetMapping("{id}")
     public ResponseEntity<EmployeDTO> findById(@PathVariable Long id) {
+        System.out.println("coucou");
         try {
             Optional<EmployeDTO> employeDTO = this.service.findById(id);
             return ResponseEntity.ok(employeDTO.get());
