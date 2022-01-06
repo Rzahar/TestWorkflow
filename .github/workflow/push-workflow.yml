@@ -1,8 +1,9 @@
-name: "Workflow push"
+name: Workflow-push
 on:
   push:
+
 jobs:
-  test-unitaire:
+  tests-unitaires:
     runs-on: ubuntu-latest
     steps:
       - name: Récpération du repo
